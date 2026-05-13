@@ -20,6 +20,7 @@ Currently in progress — repo is private until course completion.
 
 ## Notes
 - Each week folder contains problem set solutions + a short topic summary
-- Solutions are my own work
+-  Solutions are my own work. Please don't copy directly.
+
 
 
