@@ -1,4 +1,4 @@
-# Week 1 — Functions & Variables
+# Week 0 — Functions & Variables
 
 ## Topic Summary
 Functions let you organize reusable blocks of code. Variables store data.
