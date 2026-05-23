@@ -10,8 +10,8 @@ Currently in progress — repo is private until course completion.
 | Week 0 | Functions | ✅ Done |
 | Week 1 | Conditionals | ✅ Done |
 | Week 2 | Loops | ✅ Done |
-| Week 3 | Exceptions | ⏳ In progress|
-| Week 4 | Libraries | ⏳ Upcoming |
+| Week 3 | Exceptions | ✅ Done|
+| Week 4 | Libraries | ⏳ In Progress |
 | Week 5 | Unit Tests | ⏳ Upcoming |
 | Week 6 | File I/O | ⏳ Upcoming |
 | Week 7 | Regular Expressions | ⏳ Upcoming |
