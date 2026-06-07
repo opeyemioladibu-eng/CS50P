@@ -4,7 +4,7 @@
 Unit testing is the practice of writing code that tests your code. This week introduces pytest as a testing framework, pylint as a static code analyser, and the discipline of writing pure, testable functions. Each problem was restructured to separate logic from input handling — making functions easier to test in isolation. PEP 8 compliance was enforced via pylint, with black used for formatting where applicable.
 
 ## Repository Structure
-
+```
 week5-unit_testing/
 ├── test_bank/
 │   ├── bank.py
@@ -18,7 +18,7 @@ week5-unit_testing/
 └── test_fuel/
     ├── fuel.py
     └── test_fuel.py
-
+```
 ## Problem Sets
 
 | File | Problem | Description |
