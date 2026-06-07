@@ -5,12 +5,12 @@ def get_positive_fraction():
             numerator_str, denominator_str = user_input.split('/')
             x = int(numerator_str)
             y = int(denominator_str)
-            
+
             if y == 0:
                 raise ZeroDivisionError
             if x > y:
                 raise ValueError
-            
+
             percentage = round((x/y) * 100)
             if percentage <=1:
                 print("E")
@@ -18,9 +18,9 @@ def get_positive_fraction():
                 print("F")
             else:
                 print(f"{percentage}%")
-            
+
         except (ValueError, ZeroDivisionError):
-            pass            
-        
+            pass
+
 
 get_positive_fraction()

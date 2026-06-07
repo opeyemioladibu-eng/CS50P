@@ -1,10 +1,16 @@
-#In a file called bank.py, implement a program that prompts the user for a greeting. If the greeting starts with “hello”, output $0. If the
-#greeting starts with an “h” (but not “hello”), output $20. Otherwise, output $100. Ignore any leading whitespace in the user’s greeting, and treat the user’s greeting case-insensitively.
+def main():
+    greeting = input("Good Day....?").casefold().strip()
+    print(value(greeting))
 
-greeting = input ("Good Day.....?").lower().strip()
-if greeting.startswith("hello"):
-    print("You receive $0")
-elif greeting.startswith("h"):
-    print("You receive $20")
-else:
-    print("You receive $100")
+
+def value(greet):
+    if greet.startswith("hello"):
+        return("You receive $0")
+    elif greet.startswith("h"):
+        return("You receive $20")
+    else:
+        return("You receive $100")
+
+
+if __name__ == "__main__":
+    main()
