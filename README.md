@@ -12,8 +12,8 @@ Currently in progress — repo is private until course completion.
 | Week 2 | Loops | ✅ Done |
 | Week 3 | Exceptions | ✅ Done|
 | Week 4 | Libraries | ✅ Done |
-| Week 5 | Unit Tests |⌚ In Progress |
-| Week 6 | File I/O | ⏳ Upcoming |
+| Week 5 | Unit Tests |✅ Done |
+| Week 6 | File I/O | ⌚ In Progress |
 | Week 7 | Regular Expressions | ⏳ Upcoming |
 | Week 8 | OOP | ⏳ Upcoming |
 | Week 9 | Et Cetera | ⏳ Upcoming |
