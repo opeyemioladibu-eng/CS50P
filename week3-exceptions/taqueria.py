@@ -12,22 +12,19 @@ menu = {
 
 
 def calculate_price():
-            total = 0.00
-            while True:
-                try:
-                    order = input("Order:").title()
-            #check if item is in menu(case sensitive)
-                    if order in menu:
-                        total += menu[order]
-            #print total formatted to 2 decimal place
-                        print(f"${total:.2f}")
-            #if not in menu do nothing 
-                    elif order not in menu:
-                        pass
-                except EOFError:
-                    break
-                
-                
+    total = 0.00
+    while True:
+        try:
+            order = input("Item: ").title()
+
+            if order in menu:
+                total += menu[order]
+                # Print the running total immediately after each valid item
+                print(f"Total: ${total:.2f}")
+
+        except EOFError:
+            print()  # Moves cursor to a new line when Ctrl-D is pressed
+            break
+
+
 calculate_price()
-    
-            

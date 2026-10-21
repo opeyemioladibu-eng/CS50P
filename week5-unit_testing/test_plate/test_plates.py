@@ -6,6 +6,7 @@ def test_len():
     """Test that plates must be between 2 and 6 characters"""
     assert not is_valid("A")         # invalid - too short
     assert is_valid("AB")            # valid - okay length
+    assert is_valid("ABCDEF")        # valid - maximum allowed length
     assert not is_valid("ABCDEFG")   # invalid - too long
 
 
@@ -14,6 +15,9 @@ def test_isalpha():
     assert is_valid("AA23")       # valid - first two chars are letters
     assert not is_valid("A3A1")   # invalid -- second char is number
     assert not is_valid("22BB")   # invalid - starts with numbers
+    assert not is_valid("1234")   # invalid - starts with two numbers
+    assert not is_valid("A123")   # invalid - starts with one letter and a number
+    assert is_valid("AAAAAA")     # valid - all letters is allowed
 
 
 def test_isalnum():
@@ -21,7 +25,6 @@ def test_isalnum():
     assert is_valid("AA321")       # valid - only letters and numbers
     assert not is_valid("AA3!2")   # invalid - contains special characters
     assert not is_valid("AA 12")   # invalid - contains whitespace
-
 
 
 def test_no_leading_zero():

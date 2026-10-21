@@ -1,17 +1,15 @@
 groceries = {}
 
-
 while True:
     try:
-        item = input("Enter Item: ").upper()
-    #If item already in dictionary, add 1
-        if item in groceries:
-            groceries[item] += 1
-        else:
-            groceries[item] = 1
+        item = input().strip().upper()
+        if item:  # Ensures empty inputs aren't counted
+            if item in groceries:
+                groceries[item] += 1
+            else:
+                groceries[item] = 1
     except EOFError:
         break
-    
-        
-for items in sorted(groceries):
-    print(f"{groceries[items]} {items}")
+
+for item in sorted(groceries.keys()):
+    print(f"{groceries[item]} {item}")
