@@ -1,3 +1,21 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

@@ -4,10 +4,10 @@ File I/O is about reading from and writing to files — CSVs, images, and Python
 ## Problem Sets
 | File | Problem | Description |
 |------|---------|-------------|
-| shirt/shirt.py | Shirt | Overlays a shirt image onto a user-supplied photo using Pillow — validates file extensions, matches input/output formats, resizes and pastes with transparency |
+| lines/lines.py | Lines of Code | Counts the actual lines of code in a Python file — excluding blank lines and comments |
 | pizza/pizza.py | PizzaPy | Reads a CSV file of pizza menu items and prints it as a formatted grid table using tabulate |
 | scourgify/scourgify.py | Scourgify | Reads a CSV of student names in "Last, First" format and rewrites them into a new CSV with separate first, last, and house columns |
-| lines/lines.py | Lines of Code | Counts the actual lines of code in a Python file — excluding blank lines and comments |
+| shirt/shirt.py | Shirt | Overlays a shirt image onto a user-supplied photo using Pillow — validates file extensions, matches input/output formats, resizes and pastes with transparency |
 ## Key Concepts
 - Reading and writing CSV files with `csv.reader` and `csv.DictWriter`
 - Image manipulation with Pillow: `ImageOps.fit()`, `paste()`, transparency masks

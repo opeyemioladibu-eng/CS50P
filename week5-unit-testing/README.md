@@ -5,11 +5,11 @@ Unit testing is the practice of writing code that tests your code. This week int
 
 ## Repository Structure
 ```
-week5-unit_testing/
+week5-unit-testing/
 ├── test_bank/
 │   ├── bank.py
 │   └── test_bank.py
-├── twttr/
+├── test_twttr/
 │   ├── twttr.py
 │   └── test_twttr.py
 ├── test_plate/
@@ -24,7 +24,7 @@ week5-unit_testing/
 | File | Problem | Description |
 |------|---------|-------------|
 | test_bank/bank.py | Bank | Takes a greeting as input and returns a dollar value — $0 for hello, $20 for other h-greetings, $100 for everything else |
-| twttr/twttr.py | Shorten | Takes a word as input and removes all vowels, simulating Twitter's old character-saving style |
+| test_twttr/twttr.py | Shorten | Takes a word as input and removes all vowels, simulating Twitter's old character-saving style |
 | test_plate/plates.py | Vanity Plates | Validates a custom vanity plate string against five rules covering length, character type, digit placement and leading zeros |
 | test_fuel/fuel.py | Fuel Gauge | Takes a fuel fraction as input, converts it to a percentage and outputs E, F, or the percentage value |
 
@@ -36,7 +36,7 @@ Each problem has a dedicated test file. To run tests, cd into the problem subfol
 
 Example:
 
-    cd twttr
+    cd test_twttr
     python -m pytest test_twttr.py -v
 
 ## Code Quality
